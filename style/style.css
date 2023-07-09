@@ -55,6 +55,7 @@ body {
 .banner{
    width: 100%;
    height: 100vh;
+   margin-bottom: 200px;
 }
 #header-btn {
   float: right;
@@ -77,6 +78,7 @@ font-weight: 400;
   justify-content: space-around;
   gap: 134px;
   background: #FFF;
+  margin: 50px;
   
 }
 
@@ -89,14 +91,15 @@ font-weight: 400;
 .banner-left {
   width: 50%;
   
-  padding: 40px;
+
+  
 
 }
 
 
 .banner-title {
   color: #151414;
-  font-size: 25px;
+  font-size: 45px;
   font-weight: 700;
   padding: 10px;
 }
@@ -122,28 +125,28 @@ i{
 text-align: center;
 }
 .plan-container img{
-  width: 40px;
+  width: 100px;
   
   
 
 }
 .web{
   color:  #151414;
-font-size: 15px;
+font-size: 25px;
 font-weight: 700;
 
 }
+
 #plan-header{
   text-align: center;
 }
 .header{
   text-align: center;
-  margin-top: 150px;
-}
-/* image-container starts here */
-.image-head{
+  margin-top: 300px;
   
 }
+/* image-container starts here */
+
 .image-container{
   background-image: url('../images/gradient3.png'),url('../images/watch.png');
   background-size: 100%;
@@ -156,18 +159,18 @@ font-weight: 700;
 }
 .image-header{
   color: #FFF;
-  padding: 20px;
-font-size: 20px;
+  padding: 30px;
+font-size: 25px;
 font-weight: 700;
 }
 .image-btn{
   border-radius: 5px;
 background: #FFF;
 border: 0;
-padding: 10px;
+padding: 20px;
 color: #F15B22;
 text-align: center;
-margin-left: 15px;
+margin-left: 25px;
 font-weight: 600;
 }
 /* footer section starts here */
