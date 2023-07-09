@@ -74,7 +74,7 @@ font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 150px 100px;
+  margin: 150px 70px;
   gap: 134px;
   background: #FFF;
   
@@ -115,4 +115,30 @@ margin-bottom: 10px;
 i{
   padding:0 9px;
   color: #16D887;
+}
+/* plan content starts here */
+.plan-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 50px;
+text-align: center;
+}
+.plan-container img{
+  width: 40px;
+  margin-bottom: 10px;
+  
+
+}
+.web{
+  color:  #151414;
+font-size: 12px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+#plan-header{
+  text-align: center;
+}
+.header{
+  text-align: center;
+  margin-top: 150px;
 }
