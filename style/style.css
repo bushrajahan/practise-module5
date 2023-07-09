@@ -20,7 +20,7 @@ body {
 .content {
   color: #444343;
   text-align: right;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 400;
 }
 /* header section starts here */
@@ -74,7 +74,7 @@ font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 150px 70px;
+  margin: 150px 150px;
   gap: 134px;
   background: #FFF;
   
@@ -82,8 +82,7 @@ font-weight: 400;
 
 .banner-right img {
    width: 100%;
-   margin-bottom: 50px;
-   margin-left: 100px;
+   
 }
 .banner-right,
 .banner-left {
@@ -91,25 +90,22 @@ font-weight: 400;
 
 
 }
-.banner-left{
-  margin-right: 150px;
-}
+
 
 .banner-title {
   color: #151414;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
-  margin-bottom: 30px;
+  padding: 10px;
 }
 p{
   color:  #444343;
-font-size: 10px;
+font-size: 15px;
 font-weight: 400;
-margin-bottom: 10px;
 
 }
 .banner-content{
-  margin-bottom: 10px;
+  padding: 10px;
   
 }
 i{
@@ -131,7 +127,7 @@ text-align: center;
 }
 .web{
   color:  #151414;
-font-size: 12px;
+font-size: 15px;
 font-weight: 700;
 margin-bottom: 10px;
 }
@@ -143,16 +139,17 @@ margin-bottom: 10px;
   margin-top: 150px;
 }
 /* image-container starts here */
-
+.image-head{
+  margin: 100px 150px;
+}
 .image-container{
   background-image: url('../images/gradient3.png'),url('../images/watch.png');
-  background-size: 700px;
-  height: 300px;
+  background-size: 100%;
+  height: 100vh;
   width: 100%;
-
+  
   background-repeat: no-repeat;
-  margin-left:80px;
-  margin-top: 130px;
+  
 }
 .image-header{
   color: #FFF;
@@ -192,7 +189,7 @@ font-weight: 700;
 }
 .footer-text,.email,.phone{
   color: #FFF;
-  font-size: 10px;
+  font-size: 20px;
 font-weight: 400;
 padding-top: 10px;
 }
