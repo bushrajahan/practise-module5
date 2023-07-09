@@ -7,10 +7,11 @@
   text-align: right;
   padding: 8px;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 20px;
   border-radius: 5px;
   background: #f15b22;
   border: 0;
+  margin-top: 10px;
 }
 /* common styles */
 body {
@@ -20,7 +21,7 @@ body {
 .content {
   color: #444343;
   text-align: right;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
 }
 /* header section starts here */
@@ -52,21 +53,21 @@ body {
   float: right;
 }
 .banner{
-   width: 900px;
-   height: 300px;
+   width: 100%;
+   height: 100vh;
 }
 #header-btn {
   float: right;
-  margin-top: 20px;
-  margin-bottom: 100px;
+  
 }
 /* banner starts here */
 .banner-img {
   width: 100%;
+
 }
 .banner-content{
   color:  #444343;
-font-size: 10px;
+font-size: 25px;
 font-weight: 400;
 
 }
@@ -74,7 +75,6 @@ font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 150px 150px;
   gap: 134px;
   background: #FFF;
   
@@ -82,12 +82,14 @@ font-weight: 400;
 
 .banner-right img {
    width: 100%;
+
    
 }
 .banner-right,
 .banner-left {
   width: 50%;
-
+  
+  padding: 40px;
 
 }
 
@@ -100,7 +102,7 @@ font-weight: 400;
 }
 p{
   color:  #444343;
-font-size: 15px;
+font-size: 20px;
 font-weight: 400;
 
 }
@@ -116,12 +118,12 @@ i{
 .plan-container{
   display: flex;
   justify-content: space-around;
-  margin: 50px 50px;
+  
 text-align: center;
 }
 .plan-container img{
   width: 40px;
-  margin-bottom: 10px;
+  
   
 
 }
@@ -129,7 +131,7 @@ text-align: center;
   color:  #151414;
 font-size: 15px;
 font-weight: 700;
-margin-bottom: 10px;
+
 }
 #plan-header{
   text-align: center;
@@ -140,14 +142,15 @@ margin-bottom: 10px;
 }
 /* image-container starts here */
 .image-head{
-  margin: 100px 150px;
+  
 }
 .image-container{
   background-image: url('../images/gradient3.png'),url('../images/watch.png');
   background-size: 100%;
-  height: 100vh;
-  width: 100%;
-  
+  height: 400px;
+  width: 80%;
+  margin-left: 100px;
+  margin-top: 150px;
   background-repeat: no-repeat;
   
 }
@@ -164,9 +167,8 @@ border: 0;
 padding: 10px;
 color: #F15B22;
 text-align: center;
-
-font-weight: 600;
 margin-left: 15px;
+font-weight: 600;
 }
 /* footer section starts here */
 .footer-container{
@@ -196,7 +198,7 @@ padding-top: 10px;
 .footer-right{
   color: #fff;
   padding-top: 30px;
-  margin-right: 50px;
+  
 }
 input{
   display: block;
@@ -206,7 +208,7 @@ color:  #F3F3F3;
 font-size: 18px;
 font-weight: 400;
 padding: 10px;
-margin:10px 0;
+margin: 10px 0;
 background: inherit;
 
 
